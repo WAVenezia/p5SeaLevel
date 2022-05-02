@@ -7,7 +7,7 @@ function chartTitle() {
   text(
     "Global Average Absolute Sea Level Change, 1993-2014.",
     50,
-    height / 5,
+    height / 6,
     width / 4
   );
 }
