@@ -24,7 +24,7 @@ function mouseDragged() {
 }
 
 function draw() {
-  background(0, 0, 117);
+  background(0, 0, 207);
 
   
 
