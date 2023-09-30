@@ -6,11 +6,11 @@ let rows;
 let current; // = new float[cols][rows];
 let previous; // = new float[cols][rows];
 
-let dampening = 0.59;
+let dampening = 0.999;
 
 function setup() {
   pixelDensity(1);
-  createCanvas(600, 70);
+  createCanvas(600, 400);
   cols = width;
   rows = height;
   // The following line initializes a 2D cols-by-rows array with zeroes
@@ -24,7 +24,7 @@ function mouseDragged() {
 }
 
 function draw() {
-  background(0, 0, 207);
+  background(0);
 
   
 
