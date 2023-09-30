@@ -6,7 +6,7 @@ let rows;
 let current; // = new float[cols][rows];
 let previous; // = new float[cols][rows];
 
-let dampening = 0.99;
+let dampening = 0.59;
 
 function setup() {
   pixelDensity(1);
